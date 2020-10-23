@@ -15,7 +15,15 @@ public class PaintManager {
         paintLayout.drawBackground();
         paintLayout.drawInitRectangle();
 
-        keyboardMovement.keyboardOptions(paintLayout);
+        if(true) {
+
+            keyboardMovement.keyboardOptions(paintLayout);
+
+        }else {
+
+
+
+        }
 
     }
 
